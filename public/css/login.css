@@ -1,0 +1,16 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+#login-form-space {
+    padding-top: 50px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+#forgot-pwd {
+    padding-top: 10px;
+}

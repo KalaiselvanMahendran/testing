@@ -1,0 +1,75 @@
+<div id="user-page">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="table-responsive">
+                 <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>User Role</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                 </table>
+            </div>
+        </div>
+            <div class="col-md-4" id="user-form">
+            <form name="user-form" role="form">
+                 <legend>Create User</legend>
+
+                 <div class="form-group">
+                    <label for="user-name">Name</label>
+                    <input type="text" name="name" class="form-control" id="user-name" placeholder="Enter your name">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="user-email">Email</label>
+                    <input type="text" name="email" class="form-control" id="user-email" placeholder="Enter your email">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="user-pwd">Password</label>
+                    <input type="text" name="password" class="form-control" id="user-pwd" placeholder="Enter your password">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="user-cfrm-pwd">Confirm Password</label>
+                    <input type="text" name="confirm_password" class="form-control" id="user-cfrm-pwd" placeholder="Re-enter your password">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="user-role">User Role</label>
+                    <select class="form-control" name="role" id="user-role">
+                        <option value="">Select User Role</option>
+                        <option value="1">Admin</option>
+                        <option value="2">Freelancer</option>
+                    </select>
+                 </div>
+
+                 <div class="form-group">
+                    <label for="user-status">Status</label>
+                    <select class="form-control" name="status" id="user-status">
+                        <option value="">Select Status</option>
+                        <option value="1">Active</option>
+                        <option value="0">Inactive</option>
+                    </select>
+                 </div>
+
+                 <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

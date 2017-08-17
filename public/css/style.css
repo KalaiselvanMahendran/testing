@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333333;
+}
+
+.navbar-custom {
+    border-radius: 0px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 800;
+}
+
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+/*User form css starts here*/
+
+#user-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid #f8f8f8;
+    /*background-color: aliceblue;*/
+}
+
+/*User form css ends here*/
