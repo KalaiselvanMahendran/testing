@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
     color: #333333;
 }
 
@@ -28,13 +29,22 @@ body {
     border-radius: 0px !important;
 }
 
-/*User form css starts here*/
+/*User page css starts here*/
 
 #user-form {
     padding-top: 10px;
     padding-bottom: 10px;
     border-left: 2px solid #f8f8f8;
-    /*background-color: aliceblue;*/
 }
 
-/*User form css ends here*/
+#page-title {
+    float: right;
+}
+
+/*end of User page css*/
+
+/*Post page css starts here*/
+.post-create {
+    float: right;
+}
+/*end of post page*/

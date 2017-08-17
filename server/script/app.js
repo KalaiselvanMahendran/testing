@@ -1,4 +1,4 @@
-var myapp = angular.module('app', ['ui.router']);
+var myapp = angular.module('app', ['ui.router', 'ckeditor']);
 
 myapp.config(function($stateProvider, $urlRouterProvider) {
 
@@ -16,7 +16,13 @@ myapp.config(function($stateProvider, $urlRouterProvider) {
         // post
         .state('post', {
             url: '/post',
-            templateUrl: '/server/partials/post.html',
+            templateUrl: '/server/partials/post/index.html',
+            controller: 'postController'
+        })
+
+        .state('post-create', {
+            url: '/post/create',
+            templateUrl: '/server/partials/post/form.html',
             controller: 'postController'
         })
 
