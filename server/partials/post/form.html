@@ -16,17 +16,17 @@
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <form action="" method="POST" role="form">
-                 <legend>Form title</legend>
+            <form name="post-form" role="form">
+                 <legend>Create Post</legend>
 
                  <div class="form-group">
-                    <label for="">Title</label>
-                    <input type="text" class="form-control" id="">
+                    <label for="post-title">Title</label>
+                    <input type="text" name="title" class="form-control" id="post-title">
                  </div>
 
                  <div class="form-group">
-                    <label for="">Category</label>
-                    <select class="form-control" name="" id="">
+                    <label for="post-category">Category</label>
+                    <select class="form-control" name="category" id="post-category">
                         <option value="">Select Category</option>
                         <option value="">sample 1</option>
                         <option value="">sample 2</option>
@@ -34,13 +34,22 @@
                  </div>
 
                  <div class="form-group">
-                    <label for="">Content</label>
-                    <div ckeditor="options" ng-model="content" ready="onReady()"></div>
+                    <label for="post-content">Content</label>
+                    <div ckeditor="options" ng-model="content" ready="onReady()" id="post-content"></div>
                  </div>
 
                  <div class="form-group">
-                    <label for="">Tags</label>
-                    <input type="text" class="form-control" id="">
+                    <label for="post-tags">Tags</label>
+                    <input type="text" class="form-control" name="tags" id="post-tags">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="post-status">Status</label>
+                    <select class="form-control" name="status" id="post-status">
+                        <option value="">Select Status</option>
+                        <option value="1">Active</option>
+                        <option value="0">Inactive</option>
+                    </select>
                  </div>
 
                  <button type="submit" class="btn btn-primary">Submit</button>

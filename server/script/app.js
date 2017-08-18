@@ -12,20 +12,24 @@ myapp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: '/server/partials/home.html',
             controller: 'homeController'
         })
-
         // post
         .state('post', {
             url: '/post',
             templateUrl: '/server/partials/post/index.html',
             controller: 'postController'
         })
-
+        // post-create
         .state('post-create', {
             url: '/post/create',
             templateUrl: '/server/partials/post/form.html',
             controller: 'postController'
         })
-
+        // category
+        .state('category', {
+            url: '/category',
+            templateUrl: '/server/partials/category.html',
+            controller: 'categoryController'
+        })
         // user
         .state('user', {
             url: '/user',

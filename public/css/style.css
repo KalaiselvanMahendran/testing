@@ -48,3 +48,13 @@ body {
     float: right;
 }
 /*end of post page*/
+
+/*Category page css starts here*/
+
+#category-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid #f8f8f8;
+}
+
+/*end of Category page css*/
